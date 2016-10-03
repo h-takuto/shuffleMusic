@@ -15,6 +15,8 @@
 		5BCB246F1DA25B4900A23572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB246D1DA25B4900A23572 /* LaunchScreen.storyboard */; };
 		5BCB247A1DA25B4900A23572 /* shuffleMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24791DA25B4900A23572 /* shuffleMusicTests.swift */; };
 		5BCB24851DA25B4900A23572 /* shuffleMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24841DA25B4900A23572 /* shuffleMusicUITests.swift */; };
+		5BCB24931DA25CD300A23572 /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24921DA25CD300A23572 /* SongQuery.swift */; };
+		5BCB24951DA25D0F00A23572 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB24941DA25D0F00A23572 /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5BCB24801DA25B4900A23572 /* shuffleMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shuffleMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB24841DA25B4900A23572 /* shuffleMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuffleMusicUITests.swift; sourceTree = "<group>"; };
 		5BCB24861DA25B4900A23572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCB24921DA25CD300A23572 /* SongQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
+		5BCB24941DA25D0F00A23572 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5BCB24611DA25B4900A23572 /* shuffleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				5BCB24941DA25D0F00A23572 /* sample.mp3 */,
+				5BCB24921DA25CD300A23572 /* SongQuery.swift */,
 				5BCB24621DA25B4900A23572 /* AppDelegate.swift */,
 				5BCB24641DA25B4900A23572 /* FirstViewController.swift */,
 				5BCB24661DA25B4900A23572 /* SecondViewController.swift */,
@@ -240,6 +246,7 @@
 			files = (
 				5BCB246F1DA25B4900A23572 /* LaunchScreen.storyboard in Resources */,
 				5BCB246C1DA25B4900A23572 /* Assets.xcassets in Resources */,
+				5BCB24951DA25D0F00A23572 /* sample.mp3 in Resources */,
 				5BCB246A1DA25B4900A23572 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 				5BCB24671DA25B4900A23572 /* SecondViewController.swift in Sources */,
 				5BCB24631DA25B4900A23572 /* AppDelegate.swift in Sources */,
 				5BCB24651DA25B4900A23572 /* FirstViewController.swift in Sources */,
+				5BCB24931DA25CD300A23572 /* SongQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
