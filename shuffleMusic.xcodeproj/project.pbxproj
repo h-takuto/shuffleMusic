@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCB24631DA25B4900A23572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24621DA25B4900A23572 /* AppDelegate.swift */; };
+		5BCB24651DA25B4900A23572 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24641DA25B4900A23572 /* FirstViewController.swift */; };
+		5BCB24671DA25B4900A23572 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24661DA25B4900A23572 /* SecondViewController.swift */; };
+		5BCB246A1DA25B4900A23572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB24681DA25B4900A23572 /* Main.storyboard */; };
+		5BCB246C1DA25B4900A23572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB246B1DA25B4900A23572 /* Assets.xcassets */; };
+		5BCB246F1DA25B4900A23572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB246D1DA25B4900A23572 /* LaunchScreen.storyboard */; };
+		5BCB247A1DA25B4900A23572 /* shuffleMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24791DA25B4900A23572 /* shuffleMusicTests.swift */; };
+		5BCB24851DA25B4900A23572 /* shuffleMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB24841DA25B4900A23572 /* shuffleMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BCB24761DA25B4900A23572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BCB24571DA25B4900A23572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCB245E1DA25B4900A23572;
+			remoteInfo = shuffleMusic;
+		};
+		5BCB24811DA25B4900A23572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BCB24571DA25B4900A23572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCB245E1DA25B4900A23572;
+			remoteInfo = shuffleMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BCB245F1DA25B4900A23572 /* shuffleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shuffleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB24621DA25B4900A23572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BCB24641DA25B4900A23572 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5BCB24661DA25B4900A23572 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5BCB24691DA25B4900A23572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BCB246B1DA25B4900A23572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BCB246E1DA25B4900A23572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BCB24701DA25B4900A23572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCB24751DA25B4900A23572 /* shuffleMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shuffleMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB24791DA25B4900A23572 /* shuffleMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuffleMusicTests.swift; sourceTree = "<group>"; };
+		5BCB247B1DA25B4900A23572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCB24801DA25B4900A23572 /* shuffleMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shuffleMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB24841DA25B4900A23572 /* shuffleMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuffleMusicUITests.swift; sourceTree = "<group>"; };
+		5BCB24861DA25B4900A23572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCB245C1DA25B4900A23572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB24721DA25B4900A23572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB247D1DA25B4900A23572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCB24561DA25B4900A23572 = {
+			isa = PBXGroup;
+			children = (
+				5BCB24611DA25B4900A23572 /* shuffleMusic */,
+				5BCB24781DA25B4900A23572 /* shuffleMusicTests */,
+				5BCB24831DA25B4900A23572 /* shuffleMusicUITests */,
+				5BCB24601DA25B4900A23572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCB24601DA25B4900A23572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB245F1DA25B4900A23572 /* shuffleMusic.app */,
+				5BCB24751DA25B4900A23572 /* shuffleMusicTests.xctest */,
+				5BCB24801DA25B4900A23572 /* shuffleMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCB24611DA25B4900A23572 /* shuffleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB24621DA25B4900A23572 /* AppDelegate.swift */,
+				5BCB24641DA25B4900A23572 /* FirstViewController.swift */,
+				5BCB24661DA25B4900A23572 /* SecondViewController.swift */,
+				5BCB24681DA25B4900A23572 /* Main.storyboard */,
+				5BCB246B1DA25B4900A23572 /* Assets.xcassets */,
+				5BCB246D1DA25B4900A23572 /* LaunchScreen.storyboard */,
+				5BCB24701DA25B4900A23572 /* Info.plist */,
+			);
+			path = shuffleMusic;
+			sourceTree = "<group>";
+		};
+		5BCB24781DA25B4900A23572 /* shuffleMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB24791DA25B4900A23572 /* shuffleMusicTests.swift */,
+				5BCB247B1DA25B4900A23572 /* Info.plist */,
+			);
+			path = shuffleMusicTests;
+			sourceTree = "<group>";
+		};
+		5BCB24831DA25B4900A23572 /* shuffleMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB24841DA25B4900A23572 /* shuffleMusicUITests.swift */,
+				5BCB24861DA25B4900A23572 /* Info.plist */,
+			);
+			path = shuffleMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCB245E1DA25B4900A23572 /* shuffleMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB24891DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusic" */;
+			buildPhases = (
+				5BCB245B1DA25B4900A23572 /* Sources */,
+				5BCB245C1DA25B4900A23572 /* Frameworks */,
+				5BCB245D1DA25B4900A23572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shuffleMusic;
+			productName = shuffleMusic;
+			productReference = 5BCB245F1DA25B4900A23572 /* shuffleMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BCB24741DA25B4900A23572 /* shuffleMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB248C1DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusicTests" */;
+			buildPhases = (
+				5BCB24711DA25B4900A23572 /* Sources */,
+				5BCB24721DA25B4900A23572 /* Frameworks */,
+				5BCB24731DA25B4900A23572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCB24771DA25B4900A23572 /* PBXTargetDependency */,
+			);
+			name = shuffleMusicTests;
+			productName = shuffleMusicTests;
+			productReference = 5BCB24751DA25B4900A23572 /* shuffleMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BCB247F1DA25B4900A23572 /* shuffleMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB248F1DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusicUITests" */;
+			buildPhases = (
+				5BCB247C1DA25B4900A23572 /* Sources */,
+				5BCB247D1DA25B4900A23572 /* Frameworks */,
+				5BCB247E1DA25B4900A23572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCB24821DA25B4900A23572 /* PBXTargetDependency */,
+			);
+			name = shuffleMusicUITests;
+			productName = shuffleMusicUITests;
+			productReference = 5BCB24801DA25B4900A23572 /* shuffleMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCB24571DA25B4900A23572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "早川拓人";
+				TargetAttributes = {
+					5BCB245E1DA25B4900A23572 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AG9D8R883X;
+						ProvisioningStyle = Automatic;
+					};
+					5BCB24741DA25B4900A23572 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AG9D8R883X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BCB245E1DA25B4900A23572;
+					};
+					5BCB247F1DA25B4900A23572 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AG9D8R883X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BCB245E1DA25B4900A23572;
+					};
+				};
+			};
+			buildConfigurationList = 5BCB245A1DA25B4900A23572 /* Build configuration list for PBXProject "shuffleMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCB24561DA25B4900A23572;
+			productRefGroup = 5BCB24601DA25B4900A23572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCB245E1DA25B4900A23572 /* shuffleMusic */,
+				5BCB24741DA25B4900A23572 /* shuffleMusicTests */,
+				5BCB247F1DA25B4900A23572 /* shuffleMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCB245D1DA25B4900A23572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB246F1DA25B4900A23572 /* LaunchScreen.storyboard in Resources */,
+				5BCB246C1DA25B4900A23572 /* Assets.xcassets in Resources */,
+				5BCB246A1DA25B4900A23572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB24731DA25B4900A23572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB247E1DA25B4900A23572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCB245B1DA25B4900A23572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB24671DA25B4900A23572 /* SecondViewController.swift in Sources */,
+				5BCB24631DA25B4900A23572 /* AppDelegate.swift in Sources */,
+				5BCB24651DA25B4900A23572 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB24711DA25B4900A23572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB247A1DA25B4900A23572 /* shuffleMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB247C1DA25B4900A23572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB24851DA25B4900A23572 /* shuffleMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BCB24771DA25B4900A23572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BCB245E1DA25B4900A23572 /* shuffleMusic */;
+			targetProxy = 5BCB24761DA25B4900A23572 /* PBXContainerItemProxy */;
+		};
+		5BCB24821DA25B4900A23572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BCB245E1DA25B4900A23572 /* shuffleMusic */;
+			targetProxy = 5BCB24811DA25B4900A23572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BCB24681DA25B4900A23572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCB24691DA25B4900A23572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCB246D1DA25B4900A23572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCB246E1DA25B4900A23572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCB24871DA25B4900A23572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCB24881DA25B4900A23572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCB248A1DA25B4900A23572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5BCB248B1DA25B4900A23572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5BCB248D1DA25B4900A23572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shuffleMusic.app/shuffleMusic";
+			};
+			name = Debug;
+		};
+		5BCB248E1DA25B4900A23572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shuffleMusic.app/shuffleMusic";
+			};
+			name = Release;
+		};
+		5BCB24901DA25B4900A23572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shuffleMusic;
+			};
+			name = Debug;
+		};
+		5BCB24911DA25B4900A23572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AG9D8R883X;
+				INFOPLIST_FILE = shuffleMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = takuto.shuffleMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shuffleMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCB245A1DA25B4900A23572 /* Build configuration list for PBXProject "shuffleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB24871DA25B4900A23572 /* Debug */,
+				5BCB24881DA25B4900A23572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCB24891DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB248A1DA25B4900A23572 /* Debug */,
+				5BCB248B1DA25B4900A23572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BCB248C1DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB248D1DA25B4900A23572 /* Debug */,
+				5BCB248E1DA25B4900A23572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BCB248F1DA25B4900A23572 /* Build configuration list for PBXNativeTarget "shuffleMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB24901DA25B4900A23572 /* Debug */,
+				5BCB24911DA25B4900A23572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCB24571DA25B4900A23572 /* Project object */;
+}
